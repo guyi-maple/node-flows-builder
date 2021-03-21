@@ -1,0 +1,43 @@
+{
+  "name": "flows-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config-dev.js",
+    "build": "webpack --config ./webpack.config-prod.js"
+  },
+  "author": "guyi-maple",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@types/jest": "^26.0.21",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.3",
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.2.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.27.1",
+    "webpack-cli": "3.3",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "antd": "^4.14.0",
+    "axios": "^0.21.1",
+    "monaco-editor": "^0.23.0",
+    "react-flow-renderer": "^9.3.0",
+    "react-monaco-editor": "^0.43.0"
+  }
+}
