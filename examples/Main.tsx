@@ -37,7 +37,11 @@ const Main = () => {
              />
         </Col>
         <Col span={4} style={{height: '100%'}}>
-            <ElementDetail element={current} onUpdate={e => {}} />
+            <ElementDetail element={current} onUpdate={el => {
+                if (el){
+                    setElements(es => es.filter(e => e.id !== el.id).concat(el))
+                }
+            }} />
         </Col>
     </Row>
 }
